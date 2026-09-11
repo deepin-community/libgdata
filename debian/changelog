@@ -1,3 +1,12 @@
+libgdata (0.18.1-3) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+  * d/control: add ca-certificates <!nocheck>: TLS tests abort with
+    "System trust contains zero trusted certificates" when the trust
+    store is missing in the build environment.
+
+ -- tunaichao <tunaichao@uniontech.com>  Fri, 11 Sep 2026 15:59:51 +0800
+
 libgdata (0.18.1-2) unstable; urgency=medium
 
   * Upload to unstable

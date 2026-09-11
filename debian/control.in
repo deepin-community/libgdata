@@ -3,7 +3,8 @@ Section: libs
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: ca-certificates <!nocheck>,
+               debhelper-compat (= 13),
                dh-sequence-gir,
                dh-sequence-gnome,
                meson (>= 0.50),
