@@ -1,4 +1,4 @@
-libgdata (0.18.1-3) unstable; urgency=medium
+libgdata (0.18.1-2deepin1) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
   * d/control: add ca-certificates <!nocheck>: TLS tests abort with
